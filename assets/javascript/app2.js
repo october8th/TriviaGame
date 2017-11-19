@@ -67,10 +67,10 @@ var game = {
   myDivGameArea: $("#gameArea"),
   myDivTimeRemaining:$("<div/>", {"id": "timeRemaining"}),
   myDivQuestion:$("<div/>", {"id": "questionPic"}),
-  myDivAnswer1:$("<div/>", {"class": "answer"}),
-  myDivAnswer2:$("<div/>", {"class": "answer"}),
-  myDivAnswer3:$("<div/>", {"class": "answer"}),
-  myDivAnswer4:$("<div/>", {"class": "answer"}),
+  myDivAnswer1:$("<div/>", {"class": "answer col-12"}),
+  myDivAnswer2:$("<div/>", {"class": "answer col-12"}),
+  myDivAnswer3:$("<div/>", {"class": "answer col-12"}),
+  myDivAnswer4:$("<div/>", {"class": "answer col-12"}),
   initialize: function() {//set up the first question and initialize the div and variables
     game.time = 10;
     game.question = 0;
