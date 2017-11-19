@@ -1,0 +1,65 @@
+body, html {
+    
+}
+
+.container-fluid { 
+    /* The image used */
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+
+    padding:20px 80px 80px 80px;
+    background-image: url("../images/background.png");
+	background-repeat: repeat-y;
+}
+
+.myBanner {
+	height:100%;
+	width:100%;
+	margin:0px;
+}
+
+.banner {
+	margin:0px;
+}
+
+.answer{
+	margin:10px 200px 10px 200px;
+	padding:10px;
+	font-size:20px;
+	background-color: Lavender;
+	border:solid;
+	border-color:black;
+	text-align: center;
+
+}
+.answer:hover { 
+    background-color: green;
+}
+
+.question{
+	width:400px;
+	box-shadow: 10px 10px grey;
+	margin:10px;
+}
+
+#start{
+	margin:20px 100px 20px 100px;
+	padding:20px;
+	font-size:20px;
+
+}
+#prompt{
+
+	padding:20px;
+	font-size:20px;
+
+}
+
+#timeRemaining{
+	margin:10px 100px 10px 100px;
+	font-size:20px;
+	text-align:center;
+}
